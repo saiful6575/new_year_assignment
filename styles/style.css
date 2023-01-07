@@ -53,7 +53,7 @@ li {
     color: #151414;
     font-family: 'Work Sans';
     list-style: none;
-    letter-spacing: 3.5px;
+    padding-top: 6px;
 }
 
 li::before {
@@ -77,9 +77,31 @@ li::before {
     top: 939px;
 }
 .text-title{
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 5px;
+}
+.plan-text{
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.plan-div{
+    display: flex;
+    gap: 144px;
+}
+
+.my-plan{
+    position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 430px;
+    top: 1792.3px;
+
 }
