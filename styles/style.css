@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* 1st Banner Styles */
 .banner {
     position: relative;
 }
@@ -28,13 +28,12 @@
     font-weight: 400;
     font-size: 16px;
     padding: 5px;
-    line-height: 26px;
-
+    line-height: 24px;
 }
 
 .bnr-all-txt {
     position: absolute;
-    padding: 10px;
+    padding: px;
     margin-left: 800px;
     top: 30%;
     text-align: right;
@@ -76,7 +75,8 @@ li::before {
     left: 206px;
     top: 939px;
 }
-.text-title{
+
+.text-title {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -84,7 +84,8 @@ li::before {
     line-height: 47px;
     padding-bottom: 5px;
 }
-.plan-text{
+
+.plan-text {
     font-weight: 700;
     margin-top: 30px;
     font-size: 25px;
@@ -92,16 +93,76 @@ li::before {
     text-align: center;
 }
 
-.plan-div{
+.plan-div {
     display: flex;
     gap: 144px;
 }
 
-.my-plan{
+.my-plan {
     position: absolute;
     width: 1141px;
     height: 299.96px;
     left: 430px;
     top: 1792.3px;
 
+}
+
+.web {
+    padding: 2px;
+    padding-bottom: 3px;
+}
+
+.gd-container {
+    background: linear-gradient(135deg, #fd6e0a, #3f3f3f);
+    background-image: url('../images/watch.png') no-repeat;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+.btn-call {
+    background-color: white;
+    border-radius: 4px;
+    height: 64px;
+    width: 160px;
+    color: #fd6e0a;
+}
+
+.keep {
+    padding-bottom: 30px;
+}
+
+footer {
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2652.26px;
+    background: #151414;
+}
+
+.footar {
+    display: flex;
+    gap: 450px;
+    margin-left: 20px;
+}
+
+.btn-subscribe {
+    background-color: white;
+    border-radius: 2px;
+    height: 34px;
+    width: 69px;
+    color: #fd6e0a;
+    text-align: center;
+}
+
+.left-footer {
+    color: white;
+    padding-left: 10%;
+    padding-top: 40px;
 }
